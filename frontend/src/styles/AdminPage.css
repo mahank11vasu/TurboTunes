@@ -1,0 +1,178 @@
+.admin-page {
+  display: flex;
+  height: 88vh; /* Ensure it spans the full viewport height */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.admin-sidebar {
+  width: 250px;
+  background-color: #4e54c8;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dropdown {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.dropdown-btn {
+  background-color: #4e54c8;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-btn:hover {
+  background-color: #3a47b0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: #4e54c8;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content button {
+  background: none;
+  color: #4e54c8;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content button:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: auto;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 5px;
+  transition: opacity 0.3s, background-color 0.3s;
+}
+
+.logout-btn:hover {
+  opacity: 0.9;
+  background-color: #c82333;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100%; /* Take up full height */
+}
+
+.manage-section {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.state-list {
+  max-height: 60vh; /* Limit the height of the list */
+  overflow-y: auto; /* Enable vertical scrolling for large lists */
+  padding: 0;
+  margin: 0;
+}
+
+.state-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.state-item:nth-child(even) {
+  background: #f3f3f3;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 5px 15px;
+  border: none;
+  background: #ffc107;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.actions button:hover {
+  background: #e0a800;
+}
+
+.actions button.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.actions button.delete-btn:hover {
+  background: #c82333;
+}
+
+/* New styles for Analytics and Activity Logs buttons */
+.admin-sidebar button.analytics-btn,
+.admin-sidebar button.logs-btn {
+  background-color: #4e54c8;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.admin-sidebar button.analytics-btn:hover,
+.admin-sidebar button.logs-btn:hover {
+  background-color: #3a47b0;
+}

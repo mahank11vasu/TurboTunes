@@ -1,0 +1,56 @@
+.mechanic-notifications {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mechanic-notifications h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #444;
+  }
+  
+  .mechanic-notifications ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mechanic-notifications li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mechanic-notifications li p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .mechanic-notifications li p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .mechanic-notifications li span {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .mechanic-notifications li span.seen {
+    color: #6c757d;
+  }
+  
+  .mechanic-notifications li span.pending {
+    color: #dc3545;
+  }
+  

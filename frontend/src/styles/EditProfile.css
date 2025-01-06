@@ -1,0 +1,54 @@
+.edit-profile {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .edit-profile h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4e54c8;
+    text-align: center;
+  }
+  
+  .edit-profile form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-profile label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .edit-profile input,
+  .edit-profile select,
+  .edit-profile textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .edit-profile button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #4e54c8;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-profile button:hover {
+    background: #8f94fb;
+  }
+  

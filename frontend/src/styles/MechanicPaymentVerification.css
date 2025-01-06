@@ -1,0 +1,98 @@
+.payment-verification {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8faff;
+    border: 1px solid #cce7ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.payment-verification h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #004085;
+}
+
+.payment-verification h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #0056b3;
+    border-bottom: 1px solid #cce7ff;
+    padding-bottom: 8px;
+}
+
+.payment-verification ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment-verification li {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dce3f1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.payment-verification li p {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.payment-verification li p strong {
+    font-weight: bold;
+    color: #004085;
+}
+
+.payment-verification li button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    align-self: flex-start;
+}
+
+.payment-verification li button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.payment-verification li button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.payment-verification li button:nth-child(2):hover {
+    background-color: #b21f2d;
+    transform: scale(1.05);
+}
+
+.payment-verification .error-message {
+    color: #dc3545;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.payment-verification p {
+    font-size: 15px;
+    color: #666666;
+}
+
+.payment-verification li:last-child {
+    margin-bottom: 0;
+}

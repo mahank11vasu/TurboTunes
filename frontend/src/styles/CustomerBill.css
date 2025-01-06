@@ -1,0 +1,191 @@
+.customer-bill {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer-bill h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222222;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.customer-bill ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.customer-bill li {
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: #f9faff;
+  border: 1px solid #d1e7ff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.customer-bill li:hover {
+  background-color: #e9f5ff;
+  border-color: #007bff;
+  transform: translateY(-2px);
+}
+
+.customer-bill li p {
+  margin: 0;
+  font-size: 16px;
+  color: #444444;
+  line-height: 1.8;
+}
+
+.customer-bill li p span {
+  font-weight: bold;
+  color: #222222;
+}
+
+.customer-bill li button {
+  padding: 12px 18px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.customer-bill li button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.customer-bill li .download-button {
+  background-color: #28a745;
+}
+
+.customer-bill li .download-button:hover {
+  background-color: #218838;
+}
+
+.customer-bill .payment-modal {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.customer-bill .payment-modal h3 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+.customer-bill .payment-modal p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.customer-bill .payment-modal label {
+  display: block;
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.customer-bill .payment-modal select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.customer-bill .payment-modal button {
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.customer-bill .payment-modal button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.customer-bill .payment-modal button.cancel {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+.customer-bill .payment-modal button.cancel:hover {
+  background-color: #c82333;
+}
+
+.customer-bill .error-message {
+  color: #dc3545;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .customer-bill {
+    padding: 20px;
+  }
+
+  .customer-bill h2 {
+    font-size: 26px;
+  }
+
+  .customer-bill li {
+    padding: 20px;
+  }
+
+  .customer-bill li p {
+    font-size: 15px;
+  }
+
+  .customer-bill li button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .customer-bill .payment-modal {
+    padding: 20px;
+  }
+
+  .customer-bill .payment-modal h3 {
+    font-size: 22px;
+  }
+
+  .customer-bill .payment-modal button {
+    padding: 10px 15px;
+  }
+}

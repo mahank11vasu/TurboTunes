@@ -1,0 +1,101 @@
+.service-history {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .service-history h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .service-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-history li {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f7faff;
+    border: 1px solid #ccd9eb;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-history li:hover {
+    background-color: #e8f4ff;
+    border-color: #007bff;
+    transform: translateY(-3px);
+  }
+  
+  .service-history li p {
+    margin: 0;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+  }
+  
+  .service-history li p strong {
+    color: #222222;
+    font-weight: bold;
+  }
+  
+  .service-history li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 992px) {
+    .service-history li {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 15px;
+    }
+  
+    .service-history h2 {
+      font-size: 24px;
+    }
+  
+    .service-history li p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .service-history li {
+      grid-template-columns: 1fr;
+    }
+  
+    .service-history h2 {
+      font-size: 22px;
+    }
+  
+    .service-history li p {
+      font-size: 13px;
+    }
+  }
+  

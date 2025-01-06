@@ -1,0 +1,83 @@
+/* Customer Page Container */
+.customer-page {
+    display: flex;
+    height: 88vh;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Sidebar for Navigation */
+  .customer-sidebar {
+    width: 250px;
+    background-color: #4e54c8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-sidebar button {
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .customer-sidebar button:hover {
+    background: #6f74f6;
+    border-radius: 8px;
+    transform: translateX(5px);
+  }
+  
+  .customer-sidebar .logout-btn {
+    margin-top: auto; /* Push logout button to the bottom */
+    background: #ff4d4d;
+    font-weight: bold;
+  }
+  
+  .customer-sidebar .logout-btn:hover {
+    background: #ff6666;
+  }
+  
+  /* Main Content */
+  .customer-content {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    overflow-y: auto;
+  }
+  
+  .customer-content h2 {
+    font-size: 24px;
+    color: #4e54c8;
+    margin-bottom: 20px;
+  }
+  
+  .customer-content p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .customer-page {
+      flex-direction: column;
+    }
+  
+    .customer-sidebar {
+      width: 100%;
+      height: auto;
+      box-shadow: none;
+    }
+  
+    .customer-content {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,104 @@
+.manage-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .manage-section h2 {
+    color: #4e54c8;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group button {
+    padding: 10px 15px;
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .form-group button:hover {
+    background-color: #3a47b0;
+  }
+  
+  .state-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .state-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .state-item:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .state-item .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .state-item button {
+    padding: 5px 10px;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .state-item button:hover {
+    opacity: 0.9;
+  }
+  
+  .state-item button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .state-item button:last-child:hover {
+    opacity: 0.9;
+  }
+  
+  .state-item input,
+  .state-item select {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,79 @@
+.parts-usage {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .parts-usage h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .parts-usage select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .parts-list, .selected-parts {
+    margin-bottom: 20px;
+  }
+  
+  .parts-list h3, .selected-parts h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .parts-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .parts-list ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .parts-list ul li button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .parts-list ul li button:hover {
+    background-color: #45a049;
+  }
+  
+  .selected-parts div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

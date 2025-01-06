@@ -1,0 +1,85 @@
+.mechanic-reviews {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .mechanic-reviews h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .mechanic-reviews ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mechanic-reviews li {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f7faff;
+    border: 1px solid #ccd9eb;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mechanic-reviews li:hover {
+    background-color: #e8f4ff;
+    border-color: #007bff;
+    transform: translateY(-3px);
+  }
+  
+  .mechanic-reviews li p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+  }
+  
+  .mechanic-reviews li p strong {
+    color: #222222;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mechanic-reviews li:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .mechanic-reviews {
+      padding: 15px;
+    }
+  
+    .mechanic-reviews h2 {
+      font-size: 24px;
+    }
+  
+    .mechanic-reviews li {
+      padding: 15px;
+    }
+  
+    .mechanic-reviews li p {
+      font-size: 15px;
+    }
+  }
+  

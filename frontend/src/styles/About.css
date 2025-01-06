@@ -1,0 +1,191 @@
+.about {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(135deg, rgba(78, 84, 200, 0.8), rgba(143, 148, 251, 0.8)),
+      url('../assets/about-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .about-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    color: #4e54c8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 36px;
+    color: #8f94fb;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 2px solid #4e54c8;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    color: #4e54c8;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Vision Section */
+  .vision {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #4e54c8;
+    color: white;
+  }
+  
+  .vision h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .vision p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .team h2 {
+    font-size: 36px;
+    color: #4e54c8;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .team p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #4e54c8;
+  }
+  
+  .member h3 {
+    font-size: 18px;
+    color: #4e54c8;
+    margin-bottom: 5px;
+  }
+  
+  .member p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Footer Adjustments */
+  footer {
+    background-color: #4e54c8;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #ffde59;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  

@@ -1,0 +1,15 @@
+.analytics {
+    padding: 20px;
+  }
+  
+  .analytics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  

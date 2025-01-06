@@ -1,0 +1,100 @@
+.manage-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  border: none;
+  background: #4e54c8;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-group button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.form-group button:hover:not(:disabled) {
+  background: #3a47b0;
+}
+
+.feedback {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.state-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.state-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.state-item:nth-child(even) {
+  background: #f3f3f3;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 5px 15px;
+  border: none;
+  background: #ffc107;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actions button:hover {
+  background: #e0a800;
+}
+
+.actions button.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.actions button.delete-btn:hover {
+  background: #c82333;
+}

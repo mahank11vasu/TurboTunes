@@ -1,0 +1,60 @@
+.finalize-bill {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .finalize-bill h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .finalize-bill select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .finalize-bill ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .finalize-bill ul li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .finalize-bill h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .invoice-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .invoice-link a:hover {
+    text-decoration: underline;
+  }
+  
